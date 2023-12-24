@@ -1,0 +1,21 @@
+@import "../base/mixin.scss";
+
+.footer {
+  padding-top: 194.33px;
+  @extend %flex;
+  padding-bottom: 25px;
+  background: var(--BG-Shade, #f5fcff);
+}
+
+.footer__nav-menu {
+  width: 484px;
+  display: flex;
+  justify-content: space-between;
+  a {
+    color: $font-main-color;
+    transition: 0.5s ease-in-out;
+    &:hover {
+      color: $font-accent-color;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@import "../base/vars.scss";
+@import "../base/mixin.scss";
+
+.offer {
+  background: $bg-color;
+  @extend %flex;
+  margin-top: 133px 85px;
+}
+
+.offer__name {
+  @include text($font-main-color, 21px, $font-common, 600, 150%);
+}
+
+.offer_title {
+  width: 790px;
+  @include text($font-main-color, 75px, $font-common, 700, 120%);
+
+  span {
+    @include text($font-accent-color, 75px, $font-common, 700, 150%);
+  }
+}
+
+.offer_description {
+  @include text($font-main-color, 24px, $font-common, 400, 150%);
+  width: 621px;
+  margin-top: 25px;
+}
+
+.offer_btn-button {
+  border-radius: 5.333px;
+  background: $font-accent-color;
+  width: 206px;
+  height: 69px;
+  margin-top: 32px;
+  @include text($bg-color, 21px, $font-common, 400, 150%);
+}
+
+.offer__image {
+  margin-top: 133px;
+  margin-bottom: 282px;
+}

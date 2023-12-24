@@ -1,0 +1,47 @@
+@import "../base/mixin.scss";
+
+.feedback__customer {
+  @extend %flex;
+}
+
+.feedback__text {
+  padding-top: 100px;
+}
+
+.feedback__cards {
+  width: 554px;
+  border-radius: 8px;
+  border: 1.333px solid #006b6a;
+  margin-top: 106px;
+  padding-left: 42px;
+  padding-bottom: 30px;
+}
+
+.feedback_stars {
+  padding-top: 42px;
+}
+
+.feedback_pic {
+  display: flex;
+  padding-top: 42px;
+}
+
+.feedback_name {
+  margin-left: 21px;
+  padding-top: 15px;
+}
+
+.feedback_text2 {
+  @include text($font-main-color, 16px, $font-common, 400, 150%);
+  padding-top: 42px;
+  width: 469px;
+}
+
+.name {
+  @include text($font-title-color, 16px, $font-common, 600, 150%);
+}
+
+.company {
+  @include text($font-main-color, 16px, $font-common, 400, 150%);
+  padding-top: 5px;
+}

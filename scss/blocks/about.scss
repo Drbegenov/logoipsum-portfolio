@@ -1,0 +1,24 @@
+.about {
+  @extend %flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__img {
+  width: 813px;
+  height: 996px;
+  margin-right: 114px;
+}
+
+.about__content {
+  width: 821.333px;
+}
+
+.description {
+  margin-top: 32px;
+  @include text($font-main-color, 24px, $font-common, 400, 150%);
+  span {
+    padding-top: 50px;
+    display: block;
+  }
+}

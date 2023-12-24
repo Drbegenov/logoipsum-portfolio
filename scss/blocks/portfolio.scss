@@ -1,0 +1,47 @@
+@import "../base/mixin.scss";
+
+.portfolio {
+  padding-top: 74px;
+}
+
+.portfolio__row {
+  @extend %flex;
+  width: 1749px;
+}
+
+.portfolio__action {
+  border-radius: 10.667px;
+  background: #e62872;
+  box-shadow: 0px 1.333px 2.667px 0px rgba(16, 24, 40, 0.05);
+  padding: 13.333px 21.333px;
+  margin-top: 130px;
+}
+
+.portfolio__action-link {
+  @include text($bg-color, 21px, $font-common, 400, 150%);
+}
+
+.portfolio__cards {
+  @extend %flex;
+}
+
+.portfolio_text {
+  padding-top: 106px;
+}
+
+.portfolio_text-title {
+  @include text($font-title-color, 32px, $font-common, 700, 140%);
+  padding-top: 32px;
+}
+
+.portfolio_text-description {
+  @include text($font-main-color, 21px, $font-common, 400, 150%);
+  padding-top: 10px;
+  padding-bottom: 32px;
+}
+
+.portfolio__cards-link {
+  @include text(#000, 18.667px, $font-common, 600, 150%);
+  border-bottom: 1.333px solid #5e3bee;
+  padding-bottom: 10.67px;
+}

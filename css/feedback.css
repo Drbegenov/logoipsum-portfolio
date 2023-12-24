@@ -1,0 +1,11 @@
+.feedback_pic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedback__cards {
+  width: 554px;
+  border-radius: 8px;
+  border: 1.333px solid #006b6a;
+}

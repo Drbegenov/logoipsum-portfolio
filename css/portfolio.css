@@ -1,0 +1,20 @@
+.portfolio__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio {
+  padding-top: 74px;
+}
+
+.portfolio__row {
+  width: 1749px;
+}
+
+.portfolio__action {
+  border-radius: 10.667px;
+  background: #e62872;
+  box-shadow: 0px 1.333px 2.667px 0px rgba(16, 24, 40, 0.05);
+  padding: 13.333px 21.333px;
+}

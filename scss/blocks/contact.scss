@@ -1,0 +1,115 @@
+@import "../base/mixin.scss";
+@import "../base/vars.scss";
+@import "../base/reset.scss";
+
+.contact__form {
+  width: 1024px;
+  margin: auto;
+}
+
+.contact__titles {
+  text-align: center;
+}
+
+.small-title {
+  padding-top: 197px;
+}
+
+.title {
+  padding-top: 21.33px;
+  padding-bottom: 32px;
+}
+
+.name_lastname {
+  display: grid;
+  grid-template-columns: repeat(2, 496px);
+  grid-template-rows: 32px, 64px;
+  column-gap: 32px;
+  margin-top: 50px;
+}
+
+.name_lastname p {
+  margin-bottom: 10.67px;
+  @include text($font-title-color, 16px, $font-common, 400, 150%);
+}
+
+.name_lastname input {
+  height: 64px;
+}
+
+.email_phone {
+  display: grid;
+  grid-template-columns: repeat(2, 496px);
+  grid-template-rows: 32px, 64px;
+  column-gap: 32px;
+  margin-top: 32px;
+}
+
+.email_phone p {
+  margin-bottom: 10.67px;
+  @include text($font-title-color, 16px, $font-common, 400, 150%);
+}
+
+.email_phone input {
+  height: 64px;
+}
+
+.topic {
+  select {
+    width: 1024px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1.333px solid #5e3bee;
+    background: #fff;
+  }
+}
+
+.topic p {
+  margin-bottom: 10.67px;
+  @include text($font-title-color, 16px, $font-common, 400, 150%);
+}
+
+.topic {
+  margin-top: 32px;
+}
+
+.message {
+  input {
+    width: 1024px;
+    height: 240px;
+  }
+}
+
+input[type="text"] {
+  border-radius: 8px;
+  border: 1.333px solid #5e3bee;
+  background: #fff;
+}
+
+.message {
+  margin-top: 32px;
+}
+
+.message p {
+  margin-bottom: 10.67px;
+  @include text($font-title-color, 16px, $font-common, 400, 150%);
+}
+
+.checkbox {
+  margin-top: 32px;
+}
+
+.contact__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+button {
+  width: 160px;
+  height: 69px;
+  padding: 18.667px 42.667px;
+  border-radius: 8px;
+  background: #5e3bee;
+  @include text($bg-color, 16px, $font-common, 400, 150%);
+}

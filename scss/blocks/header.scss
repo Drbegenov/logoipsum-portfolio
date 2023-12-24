@@ -1,0 +1,34 @@
+@import "../base/mixin.scss";
+@import "../base/vars.scss";
+
+.header {
+  padding-top: 25px;
+  @extend %flex;
+  padding-bottom: 25px;
+}
+
+.header__nav-menu {
+  width: 484px;
+  display: flex;
+  justify-content: space-between;
+  a {
+    color: $font-main-color;
+    transition: 0.5s ease-in-out;
+    &:hover {
+      color: $font-accent-color;
+    }
+  }
+}
+.header__contact {
+  width: 170.667px;
+  border-radius: 5.333px;
+  border: 1.333px solid $font-accent-color;
+}
+.header__contact-link {
+  color: $font-accent-color;
+  font-family: $font-common;
+  font-size: 21.333px;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 28px;
+}

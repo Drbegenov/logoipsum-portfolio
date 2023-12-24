@@ -1,0 +1,28 @@
+@import "./base/vars.scss";
+@import "./base/reset.scss";
+@import "./base/mixin.scss";
+@import "./blocks/header.scss";
+@import "./blocks/offer.scss";
+@import "./blocks/about.scss";
+@import "./blocks/skills.scss";
+@import "./blocks/portfolio.scss";
+@import "./blocks/feedback.scss";
+@import "./blocks/contact.scss";
+@import "./blocks/footer.scss";
+
+.container {
+  margin: auto;
+  width: 1749px;
+}
+
+.small-title {
+  @include text($font-title-color, 21.333px, $font-common, 600, 150%);
+}
+
+.title {
+  @include text($font-title-color, 64px, $font-common, 700, 120%);
+}
+
+.subtitle {
+  @include text($font-main-color, 24px, $font-common, 400, 150%);
+}
